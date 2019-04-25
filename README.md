@@ -1,4 +1,5 @@
 # Welcome to Soundbin
+Demo Video: https://youtu.be/S8PYpyXdU1c
 
 Soundbin is our entry for the 2019 VT Blockchain challenge. Soundbin is a decentralized music platform that allows artists to independently distribute their content directly to their fans without any middlemen. The site was inspired by the problems faced by artists using current online distribution services such as Spotify or Soundcloud, which either pay fractions of a cent per play or take a large cut of all total sales. In addition, these services also host music centrally, which means that if anything happens to them (they go down, change their terms, etc) the content uploaded goes along with it. Using the distributed EOS.IO network as a payments backend, we have built a service with a low barrier of entry so that VT students can easily set up and start uploading and selling their original content on their own hardware with only a small amount of command-line knowledge. Additionally, customers using Soundbin sites can take comfort in knowing that all of the money they spend on music will go directly into the pockets of the artist who created it.
 
