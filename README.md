@@ -6,8 +6,14 @@ Because of our team members’ varying skillsets, we decided to build Soundbin u
 
 ## Codebase Organization
 Because of our microservice-based approach, we have divided our code into several different repositories in order to seperate concerns. You can find the key services here:
-* [soundbin-launcher](https://github.com/cs-4284-capstone/soundbin-launcher) - Contains code to start everything up using docker-compose.
+* [soundbin-launcher](https://github.com/cs-4284-capstone/soundbin-launcher) - Contains code to start everything up using docker-compose. (Go here next, if you're just starting up)
 * [artist-frontend](https://github.com/cs-4284-capstone/artist-frontend) - A Vue webapp that customers use to browse the catalog and start making purchases.
 * [blockchain-backend](https://github.com/cs-4284-capstone/blockchain_backend) - Contains all EOS-facing code, including smart contracts and docker code to run our local nodeos instance.
 * [demux](https://github.com/cs-4284-capstone/demux) - ExpressJS Blockchain notifiaction reader. Monitors the blockchain for the reciept of any tokens, then informs the admin server to deliver the purchased content.
-* [soundbin-admin](https://github.com/cs-4284-capstone/soundbin-admin) - Core administration server, written in Django. Handles music uploads, purchases, and deliveries. 
+* [soundbin-admin](https://github.com/cs-4284-capstone/soundbin-admin) - Core administration server, written in Django. Handles music uploads, purchases, and deliveries.
+
+## Things you need to run Soundbin
+You need the following items at-hand in order to run our code:
+* A host capable of running docker and docker-compose, with `curl` installed.
+* An EOS.IO account with a private key.
+* A GMail account to send songs from
